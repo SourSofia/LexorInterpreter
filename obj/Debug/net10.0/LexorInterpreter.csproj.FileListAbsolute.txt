@@ -12,3 +12,4 @@ C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\refint\LexorInterpreter.dll
 C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\LexorInterpreter.pdb
 C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\LexorInterpreter.genruntimeconfig.cache
 C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\ref\LexorInterpreter.dll
+C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\LexorInterpreter.sourcelink.json

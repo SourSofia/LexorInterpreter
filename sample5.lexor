@@ -1,0 +1,10 @@
+SCRIPT AREA
+START SCRIPT
+DECLARE INT count=0
+DO REPEAT
+START REPEAT
+count=count+1
+PRINT: "count is " & count & $
+END REPEAT
+UNTIL (count < 3)
+END SCRIPT
