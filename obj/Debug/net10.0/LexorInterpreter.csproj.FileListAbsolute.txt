@@ -1,0 +1,14 @@
+C:\Users\USER\LexorInterpreter\bin\Debug\net10.0\LexorInterpreter.exe
+C:\Users\USER\LexorInterpreter\bin\Debug\net10.0\LexorInterpreter.deps.json
+C:\Users\USER\LexorInterpreter\bin\Debug\net10.0\LexorInterpreter.runtimeconfig.json
+C:\Users\USER\LexorInterpreter\bin\Debug\net10.0\LexorInterpreter.dll
+C:\Users\USER\LexorInterpreter\bin\Debug\net10.0\LexorInterpreter.pdb
+C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\LexorInterpreter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\LexorInterpreter.AssemblyInfoInputs.cache
+C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\LexorInterpreter.AssemblyInfo.cs
+C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\LexorInterpreter.csproj.CoreCompileInputs.cache
+C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\LexorInterpreter.dll
+C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\refint\LexorInterpreter.dll
+C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\LexorInterpreter.pdb
+C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\LexorInterpreter.genruntimeconfig.cache
+C:\Users\USER\LexorInterpreter\obj\Debug\net10.0\ref\LexorInterpreter.dll
