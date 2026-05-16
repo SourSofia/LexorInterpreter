@@ -1,4 +1,3 @@
-// Parser.cs
 namespace LexorInterpreter;
 
 public class Parser
@@ -60,6 +59,10 @@ public class Parser
         }
 
         Expect(TokenType.END_SCRIPT);
+        SkipNewlines();
+        if (!Check(TokenType.EOF))
+            throw new LexorException(
+                $"Unexpected content after END SCRIPT at line {Current.Line}");
         return program;
     }
 

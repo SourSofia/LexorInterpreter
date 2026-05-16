@@ -281,13 +281,15 @@ public class Evaluator
     private static object CoerceToType(object val, string typeName, string varName) =>
         typeName switch
         {
-            "INT"   => val switch
-                       {
-                           int    i => i,
-                           double d => (int)d,
-                           _ => throw new LexorException(
-                               $"Cannot assign {val.GetType().Name} to INT variable '{varName}'")
-                       },
+            "INT" => val switch
+                        {
+                            int i => i,
+                            double d when d == Math.Truncate(d) => (int)d,
+                            double d => throw new LexorException(
+                                $"Cannot assign FLOAT value to INT variable '{varName}'"),
+                            _ => throw new LexorException(
+                                $"Cannot assign {val.GetType().Name} to INT variable '{varName}'")
+                        },
             "FLOAT" => val switch
                        {
                            double d => d,

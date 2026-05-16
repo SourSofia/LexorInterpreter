@@ -1,0 +1,17 @@
+SCRIPT AREA
+START SCRIPT
+DECLARE INT x=0
+
+%% REPEAT WHEN: condition is false from the start, body never runs
+REPEAT WHEN (x > 0)
+START REPEAT
+PRINT: "REPEAT WHEN ran" & $
+END REPEAT
+
+%% DO REPEAT UNTIL: body always runs at least once
+DO REPEAT
+START REPEAT
+PRINT: "DO REPEAT ran once!" & $
+END REPEAT
+UNTIL (x > 0)
+END SCRIPT

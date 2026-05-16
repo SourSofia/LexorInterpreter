@@ -34,6 +34,7 @@ class Program
             var tokens    = new Scanner(source).Tokenize();
             var ast       = new Parser(tokens).Parse();
             new Evaluator().Execute(ast);
+             Console.WriteLine("\n--- Program finished successfully ---");
             return 0;
         }
         catch (LexorException ex)
